@@ -1,0 +1,71 @@
+gconf-cleaner
+------------------------------------------
+GConf Cleaner is a tool to clean your GConf database up that
+is possibly ate away with the unnecessary keys anymore or
+the invalid keys.  You may want to keep a clean your GConf
+database. this tool might help you in this case.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  GConf2-2.18.0.1-1
+  glib2-2.12.12-2
+  gtk2-x11-2.10.13-1
+  libintl8-0.15-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  intltool-0.35.4-1
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://code.google.com/p/gconf-cleaner/
+
+Canonical download:
+  http://gconf-cleaner.googlecode.com/files/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gconf-cleaner-0.0.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gconf-cleaner-0.0.2-X.cygport all
+
+This will create:
+  /usr/src/gconf-cleaner-0.0.2-X-src.tar.bz2
+  /usr/src/gconf-cleaner-0.0.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/gconf-cleaner.exe
+  /usr/share/doc/Cygwin/gconf-cleaner-0.0.2.README
+  /usr/share/doc/gconf-cleaner-0.0.2/AUTHORS
+  /usr/share/doc/gconf-cleaner-0.0.2/COPYING
+  /usr/share/doc/gconf-cleaner-0.0.2/ChangeLog
+  /usr/share/doc/gconf-cleaner-0.0.2/INSTALL
+  /usr/share/doc/gconf-cleaner-0.0.2/README
+  /usr/share/locale/ja/LC_MESSAGES/gconf-cleaner.mo
+
+------------------
+
+Port Notes:
+
+----- version 0.0.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

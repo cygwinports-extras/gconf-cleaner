@@ -1,0 +1,5 @@
+inherit gnome2
+
+DESCRIPTION="GConf database cleanup tool"
+HOMEPAGE="http://code.google.com/p/gconf-cleaner/"
+SRC_URI="http://gconf-cleaner.googlecode.com/files/${P}.tar.gz"
